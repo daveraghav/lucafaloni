@@ -24,4 +24,4 @@ plotly==3.3.0
 requests==2.21.0
 urllib3==1.24.1
 Werkzeug==0.14.1
-gunicorn
+gunicorn==0.14.2
