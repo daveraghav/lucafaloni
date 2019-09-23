@@ -5,6 +5,9 @@ from dash.dependencies import Input, Output
 import numpy as np
 import pandas as pd
 from datetime import datetime as dt
+from dash_auth import BasicAuth
+
+username_passwords = [['admin','lucafaloni']]
 
 # Load and process data
 
@@ -45,6 +48,8 @@ external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 # Build Dashboard
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+auth = BasicAuth(app,username_passwords)
 
 # Defining Dash Core Components
 
