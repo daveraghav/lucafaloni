@@ -110,13 +110,13 @@ app.layout = html.Div(children=[
     html.Div(value_op),
     html.Div(children=[
         graph_bymonth
-    ], style={'width':'70%','display':'inline-block'}),
+    ], style={'width':'60%','display':'inline-block'}),
     html.Div(children=[
         pie_bymonth
     ], style={'display':'inline-block','float':'right'}),
     html.Div(),
-    html.Div(children=[date_range],style={'display':'inline-block','width':'15%'}),
-    html.Div(children=[byweekorday],style={'display':'inline-block','width':'15%'}),
+    html.Div(children=[date_range],style={'display':'inline-block','width':'30%'}),
+    html.Div(children=[byweekorday],style={'display':'inline-block','width':'30%'}),
     html.Div(children='Please hover on the main plot to update the Pie Chart data',style={'display':'inline-block','float':'right'}),
     graph_byweekorday
     ])
