@@ -10,3 +10,10 @@ Dependancies:
 + numpy
 + pandas
 + dash_auth
+
+The App can also be accessed at:
+
+[https://lucafaloni.herokuapp.com](https://lucafaloni.herokuapp.com)
+
+Username: admin
+Password: lucafaloni
